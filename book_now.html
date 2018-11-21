@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Courgette|Kaushan+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Anton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Courgette|Kaushan+Script|Unica+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="js/jquery.fancybox.min.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="css/book_now.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <title>Rental Photo Booth Online</title>
+</head>
+<body>
+        <nav class="navbar navbar-default">
+                <div class="container-fluid header">
+                    <div class="row shuruna">
+                        <div class="col-3">
+                        <div><img class="logo" src="img/logoicon.png" ></div>
+                        </div>
+        <!--Not mobile-->
+        <div id="not_mobile">
+            <div id="not_menu">
+                    <div class="col-9" id="navheader">
+                    <div class="number-phone">
+                            <i class="fas fa-mobile-alt"><span class="phone">+1(929) 337 7794</span></i>
+                            <i class="far fa-clock"><span class="phone">8AM - 6PM</span></i>
+                            <div class="iconssoc">
+                            <a href="https://www.instagram.com/magic_lens00/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/magicrentalphotobooth/"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://plus.google.com/u/2/111742624558114190920"><i class="fab fa-google-plus-g"></i></a>
+                            </div>
+                    </div>
+                    
+                    <ul class="navrigth">
+                        <li class="nav-item">
+                            <a class="nav-link activ" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">PRICING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">GALLERY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">FOLLOW US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="book_now.html">BOOK NOW</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact1">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+                    <!--Not mobile-->
+                    <div class="tables navbar-header">
+                        <a class="fas fa-bars" data-toggle="collapse" data-target="#myNavbar"></a>
+                    </div>
+        
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                                <li class="nav-item">
+                                        <a class="nav-link" href="index.html">HOME</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.html">PRICING</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.html">GALLERY</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.html">FOLLOW US</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="book_now.html">BOOK NOW</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#contact1">CONTACT US</a>
+                                    </li>
+                        </ul>
+                    </div>
+                </div>
+                </nav>
+
+<div class="container-fluid">
+    <div class="textbook">
+        <p class="textbooknow">BOOK NOW</p>
+    </div>
+    <h3 class="contactus" id="cont"><hr class="line"><strong>START THE PARTY</strong><hr class="line"></h3>
+    <p class="party" >Are you interested in booking us for your next event? Fill out the contact form and someone will contact you shortly!</p>
+</div>
+
+                <div class="container">
+        
+                    <a name="contact"></a>
+            
+                    <form>
+                            <div class="form-group row">
+                                <label for="contact-name" class="event_name">Name *</label>
+                            <div class="col-sm-8">
+                                <input class="form-control" id="contact-name" name="name" type="text" onkeyup='validateName()'>
+                                <span class='error-message' id='name-error'></span>
+                            </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="contact-email" class="event_email">Email *</label>
+                                <div class="col-sm-8">
+                                <input class="form-control" id="contact-email" name="email" placeholder="example@gmail.com" type="email" onkeyup='validateEmail()'>
+                                    <span class='error-message' id='email-error'></span>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="contact-phone" class="event_phone">Phone *</label>
+                                <div class="col-sm-8">
+                                    <input class="form-control" id="contact-phone" name="phone" type="tel" onkeyup='validatePhone()'>
+                                    <span class='error-message' id='phone-error'></span>
+                                </div>
+                            </div>
+
+                            <div class="form-group row dateevent">
+                                    <label for="contact-date" class="event_date">Event Date *</label>
+                                    <div class="col-sm-8">
+                                        <input class="form-control" id="contact-date" type="date" name="bday" onkeyup='validateDate()'>
+                                    <span class='error-message' id='date-error'></span>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                    <label for="contact-occasion" class="event_occasion">Occasion</label>
+                                    <div class="col-sm-8">
+                                        <select class="form-control" id="contact-occasion" onkeyup='validateOccasion()' name="occasion">
+                                                <option value="corporate">Corporate</option>
+                                                <option value="birthday">Birthday</option>
+                                                <option value="wedding">Wedding</option>
+                                                <option value="cocktail">Cocktail</option>
+                                                <option value="other">Other</option>
+                                              </select>
+                                    <span class='error-message' id='occasion-error'></span>
+                                </div>
+                            </div>
+
+                            <div class="form-group ">
+                                    <label for="contact-package" class="event_package">Package Type</label>
+                                        <div id="contact-package" onkeyup='validatePackage()' name="package">
+                                            <input type="radio" name="package" value="Standart" checked> Standart Package<br>
+                                            <input type="radio" name="package" value="Silver"> Silver Package<br>
+                                            <input type="radio" name="package" value="Gold"> Gold Package<br><br>
+                                        </div>
+                                    <span class='error-message' id='package-error'></span>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="contact-message" class="event_message">Message</label>
+                                <div class="col-sm-8">
+                                    <textarea class="form-control" rows="5" id='contact-message'  name='message' onkeyup='validateMessage()'></textarea>
+                                    <span class='error-message' id='message-error'></span>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-sm-12">
+                                    <button onclick='validateForm()' id="send" class="btn btn-dark mb-2 waves-effect waves-light">Submit</button>
+                                    <span class='error-message' id='submit-error'></span>
+                                </div>
+                            </div>
+                    </form>
+                    <a name="contact1"></a>
+                    <h3 id="contact1" class="contactus" id="cont"><hr class="line"><strong>CONTACT US</strong><hr class="line"></h3>
+                    <div class="adress">
+                        <p>Phone: +1(929) 337 7794</p>
+                        <p>Email: info@magiclensphotobooth.com</p>
+                        <p>Our address: BETET CORP 516 MARKET ST FL 2 LEMOYNE PA 17043</p>
+                    </div>    
+                </div>
+
+                <div class="footer container-fluid">
+                    <div class="row padding_row">
+                        <div class="col-sm-12 col-lg-8" >
+                            <div class="copiright" id="footer_left">
+                            <div class="iconsfooter">
+                                <a href="https://www.instagram.com/magic_lens00/"><i class="fab_footer fab fa-instagram"></i></a>
+                                <a href="https://www.facebook.com/magicrentalphotobooth/"><i class="fab_footer fab fa-facebook-f"></i></a>
+                                <a href="https://plus.google.com/u/2/111742624558114190920"><i class="fab_footer fab fa-google-plus-g"></i></a>
+                            </div>
+                                <p>Phone: +1(929) 337 7794</p>
+                                <p>Email: info@magiclensphotobooth.com</p>
+                                <p class="ouraddress">Our address: 516 MARKET ST FL 2 LEMOYNE PA 17043</p>
+                                <p >© 2018, Magic Lens Photo Booth - All rights reserved</p>
+                            </div>
+                        </div>    
+                        <div class="col-sm-12 col-lg-4">
+                            <img class="logofooter" src="img/whitepalaz.png" >
+                        </div>
+                    </div>
+                </div>
+                           
+                            <!-- Optional JavaScript -->
+                    <script src="js/jquery-3.3.1.min.js"></script>
+                    
+                    <script>
+                            const anchors = document.querySelectorAll('a[href*="#"]')
+                            
+                            for (let anchor of anchors) {
+                              anchor.addEventListener('click', function (e) {
+                                e.preventDefault()
+                                
+                                const blockID = anchor.getAttribute('href')
+                                
+                                document.querySelector('' + blockID).scrollIntoView({
+                                  behavior: 'smooth',
+                                  block: 'start'
+                                })
+                              })
+                            }
+                    </script>
+
+                    <script
+                  src="https://code.jquery.com/jquery-3.3.1.js"
+                  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+                  crossorigin="anonymous"></script>
+                
+                  <script src = "// code.jquery.com/jquery-3.2.1.min.js"> </script>
+                  <script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript">
+                  </script>
+                
+                    <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+                    <script src="https://www.facebook.com/connect.php/js/FB.Share" type="text/javascript"></script>
+                    <script src="js/bootstrap.bundle.min.js"></script>
+                    
+                    <script src="js/slide.js"></script>
+                </body>
+                
+                </html>

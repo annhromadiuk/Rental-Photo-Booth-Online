@@ -1,0 +1,143 @@
+/*Form*/
+.contactus {
+    color: #ff007f;
+    font-family: 'Acme', sans-serif;
+    margin: 35px 0px 60px 0px;
+    text-align: center;
+}
+.fa {
+    margin-left: 35px;
+    color: #5d5f63;
+}
+ .error-message {
+    font-size: 17px;
+}
+.btn {
+    margin-left: 105px;
+}
+
+/*Form*/
+.event_date {
+    font-size: 15px;
+    color: #5d5f63;
+    font-weight: bold;
+    padding-top: 9px;
+    padding-left: 16px;
+}
+.event_occasion {
+    font-size: 15px;
+    color: #5d5f63;
+    font-weight: bold;
+    padding-top: 9px;
+    padding-left: 16px;
+}
+.event_name {
+    font-size: 15px;
+    color: #5d5f63;
+    font-weight: bold;
+    padding-top: 9px;
+    padding-left: 16px;
+}
+.event_email {
+    font-size: 15px;
+    color: #5d5f63;
+    font-weight: bold;
+    padding-top: 9px;
+    padding-left: 16px;
+}
+.event_phone {
+    font-size: 15px;
+    color: #5d5f63;
+    font-weight: bold;
+    padding-top: 9px;
+    padding-left: 16px;
+}
+.event_package {
+    font-size: 15px;
+    color: #5d5f63;
+    font-weight: bold;
+    padding-top: 9px;
+}
+.event_message {
+    font-size: 15px;
+    color: #5d5f63;
+    font-weight: bold;
+    padding-top: 9px;
+    padding-left: 16px;
+}
+#contact-package {
+    font-size: 15px;
+    color: #5d5f63;
+    font-weight: bold;
+}
+#contact-phone {
+    margin-left: 32px;
+}
+#contact-email {
+    margin-left: 38px;
+}#contact-name {
+    margin-left: 38px;
+}
+#contact-occasion {
+    margin-left: 20px;
+}
+#contact-message {
+    margin-left: 26px;
+}
+.adress {
+    font-size: 17px;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 40px;
+}
+@media only screen and (max-width: 767px) {  
+    .event_name {
+        padding-left: 30px;
+    } 
+    .event_email {
+        padding-left: 30px;
+    }
+    .event_phone {
+        padding-left: 30px;
+    }
+    .dateevent {
+        padding-left: 32px;
+    }
+    .event_occasion {
+        padding-left: 30px;
+    }
+    .event_message {
+        padding-left: 30px;
+    }
+    #contact-occasion {
+        margin-left: 33px;
+    }
+    #contact-name {
+        margin-left: 0px;
+    }
+    #contact-email {
+        margin-left: 0;
+    }
+    #contact-phone {
+        margin-left: 0;
+    }
+    #contact-date {
+        margin-left: -30px;
+    }
+    #contact-occasion {
+        margin-left: 0;
+    }
+    #contact-message {
+        margin-left: 0;
+    }
+    .party {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .adress {
+        font-size: 13px;
+        text-align: center;
+        line-height: 1;
+        margin-bottom: 20px;
+    }
+}
